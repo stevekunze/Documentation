@@ -1,3 +1,3 @@
-| command                                                                                                                                    | explenation                                       |
+| **command**                                                                                                                                | **explenation**                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
 | yt-dlp --ignore-errors --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K --output "%(title)s.%(ext)s" 'video-url' | download audio as mp3 with best available quality |
