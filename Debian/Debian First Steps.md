@@ -12,3 +12,8 @@
 
 ## Change SSH Configuration 
 
+### Passwordless sudo 
+
+1. Edit sudoers file: `sudo nano /etc/sudoers`
+2. Find a line which contains **includedir /etc/sudoers.d**
+3. Below that line add: **username ALL=(ALL) NOPASSWD: ALL** , where username is name of the user (for me admind on most servers)
