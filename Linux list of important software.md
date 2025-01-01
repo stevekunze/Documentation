@@ -28,6 +28,7 @@
 | btop         | monitoring cli tool                                           |
 | micro        | better nano                                                   |
 | starship     | style terminal prompt                                         |
+| musikcube    | cli music player                                              |
 
 
 
