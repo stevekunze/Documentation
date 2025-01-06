@@ -10,10 +10,8 @@
 - add the new user to the sudo group 
 	`usermod -aG sudo admind`
 
-## Change SSH Configuration 
+### Passwordless sudo (optional)
 
-
-### Passwordless sudo 
 
 1. Edit sudoers file: `sudo nano /etc/sudoers`
 2. Find a line which contains **includedir /etc/sudoers.d**
