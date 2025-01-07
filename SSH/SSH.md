@@ -5,15 +5,12 @@ tags:
   - key
   - privatepublickey
 ---
-# Creating A Keypair 
+# Creating a keypair 
 
 
 **Private-Key file permission is always 600. Only Read/Write permissions for the User, which is using the key for authentication. Key should be protected with a passphrase.**
 
-```
-
-
-3. Create SSH Keypair with ed25519
+1. Create SSH Keypair with ed25519
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/host_ed25519
 ```
@@ -72,7 +69,9 @@ cat username_key.pub
 ### SSH Service restart
 - SSH-Dienste neu-starten 
 ```bash 
-systemctl restart sshd.service systemctl restart ssh.service
+systemctl restart sshd.service
 ```
-
-
+or 
+```bash
+systemctl restart ssh.service
+```
