@@ -1,9 +1,10 @@
 ## Ansible Basic Commands Cheatsheet
 
-| **command**                                         | **result**                                                  |
-| --------------------------------------------------- | ----------------------------------------------------------- |
-| ansible-playbook -i inventory playbook.yaml         | runs ansible playbook on specified inventory                |
-| ansible-playbook -i inventory playbook.yaml --check | runs ansible playbook on specified inventory as a "dry run" |
+| **command**                                            | **result**                                                             |
+| ------------------------------------------------------ | ---------------------------------------------------------------------- |
+| ansible-playbook -i inventory playbook.yaml            | runs ansible playbook on specified inventory                           |
+| ansible-playbook -i inventory playbook.yaml --check    | runs ansible playbook on specified inventory as a "dry run"            |
+| ansible-playbook -i inventory playbook.yaml --ask-pass | runs ansible playbook on specified inventory and ask for user password |
 
 ## Ansible-Vault Cheatsheet
 

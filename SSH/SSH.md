@@ -7,8 +7,9 @@ tags:
 ---
 # Creating A Keypair 
 
-```ad-important
-Private-Key file permission is always 600. Only Read/Write permissions for the User, which is using the key for authentication. Key should be protected with a passphrase.
+
+**Private-Key file permission is always 600. Only Read/Write permissions for the User, which is using the key for authentication. Key should be protected with a passphrase.**
+
 ```
 
 
