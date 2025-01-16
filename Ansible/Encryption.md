@@ -8,7 +8,7 @@ The easiest way to do this is with the `mkpasswd` command:
 ```bash
 mkpasswd --method=sha-512
 ```
-This will prompt for the plaintext password and will give a hashed password string y. For password `secret`, get hash `$6$F4NWXRFtSdCi8$DsB5vvMJYusQhSbvGXrYDXL6Xj37MUuqFCd4dGXdKd6NyxT3lpdELN07/Kpo7EjjWnm9zusFg/LLFv6oc.ynu/`.
+This will prompt for the plaintext password and will give a hashed password string. For password `secret`, get hash `$6$F4NWXRFtSdCi8$DsB5vvMJYusQhSbvGXrYDXL6Xj37MUuqFCd4dGXdKd6NyxT3lpdELN07/Kpo7EjjWnm9zusFg/LLFv6oc.ynu/`.
 That would make the Yaml look like this:
 ```yaml
 ---
